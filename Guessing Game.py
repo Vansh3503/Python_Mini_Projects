@@ -1,12 +1,12 @@
 import random
 print("WElcome to Guessing game")
 flag=1
-print("Enter the Range:")
+
 while flag:
 
     flag=int(input("enter 1 to play the game 0 to exit: "))
     if flag==1:
-
+        print("Enter the Range:")
         A=int(input("Enter the lower range: "))
         B=int(input("Enter the upper range: "))
         Guess_counter=0
