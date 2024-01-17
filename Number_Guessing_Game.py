@@ -1,5 +1,5 @@
 import random
-print("WElcome to Guessing game")
+print("Welcome to Guessing game")
 flag=1
 
 while flag:
@@ -44,9 +44,6 @@ while flag:
                 elif n==random_number:
                     Guess_counter=Guess_counter+1
                     print(f'Congrats You Guess the right Number  with {Guess_counter} guesses')
-
-            
-
                     break
         else:
             print("Invalid Range")
@@ -55,7 +52,7 @@ while flag:
         print("Bye Bye")
 
     else:
-        print("invalid input ")
+        print("Invalid input.")
 
         
                 
